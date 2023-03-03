@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-import Home from './frontend/Home';
+import Home from './src/components/Home';
 
 function App() {
 
