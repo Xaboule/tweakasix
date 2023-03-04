@@ -24,7 +24,7 @@ router.get("/users", UserController.browse);
 router.get("/users/:id", UserController.read);
 router.put("/users/:id", UserController.edit);
 router.delete("/users/:id", UserController.delete);
-router.get("/auth", UserController.authorization);
+// router.get("/auth", UserController.authorization);
 
 router.get("/agencies", AgencyController.browse);
 router.get("/agencies/:id", AgencyController.read);
