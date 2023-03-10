@@ -10,7 +10,7 @@ const {
 
 const router = express.Router();
 
-router.get("/projects", ProjectController.browse);
+router.get("/", ProjectController.browse);
 router.get("/projectsDescription", ProjectController.browseDescription);
 router.get("/projects/technos/:id", ProjectController.readTechnos);
 router.get("/projects/:id", ProjectController.read);
