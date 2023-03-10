@@ -3,6 +3,13 @@
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
+  
+}
+
+.containerresult{
+  /* border: red solid 5px; */
+  width: 100vw;
+  height:100vh
 }
 
 .logo {

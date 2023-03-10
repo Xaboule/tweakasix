@@ -1,0 +1,38 @@
+*{
+}
+
+
+.headnav{
+    /* border: red solid 2px; */
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    background-color: #85C7DE;
+
+
+}
+
+.navbar{
+    padding:0;
+}
+.navlogo{
+    width: 15vw;
+    margin-left: 2rem;
+}
+
+.navbar-brand{
+    margin: 0;
+}
+
+#basic-navbar-nav{
+
+      justify-content: space-evenly
+    }
+    
+    
+    .navnav{
+
+        width: 100%;
+        justify-content: space-evenly;
+
+}

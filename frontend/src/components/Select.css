@@ -1,0 +1,13 @@
+.contselect{
+    margin-top: 4vh;
+    background-color: rgb(30, 30, 30);
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contselect > select {
+    width: 10vw;
+    height: 3vh;
+}

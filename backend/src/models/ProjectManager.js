@@ -8,7 +8,7 @@ class ProjectManager extends AbstractManager {
       `insert into ${ProjectManager.table} (title, description, sector, github_address, progress, debut_date, estimated_deadline) values (?, ?, ?, ?, ?, ?, ?)`,
       [
         project.title,
-        project.description,
+        // project.description,
         project.sector,
         project.github_address,
         project.progress,
@@ -17,6 +17,7 @@ class ProjectManager extends AbstractManager {
       ]
     );
   }
+
 
   update(project) {
     return this.connection.query(
@@ -34,9 +35,9 @@ class ProjectManager extends AbstractManager {
     );
   }
 
-  findAllDescription() {
+  findAllDescription(id) {
     return this.connection.query(
-      `select description from  ${ProjectManager.table}`
+      `select description from  ${ProjectManager.table} where id < 10`
     );
   }
 }
